@@ -130,7 +130,7 @@
     }) %>
   <% } %>
   <% if (theme.gitalk && theme.gitalk_config && theme.gitalk_config.clientID && theme.gitalk_config.clientSecret && theme.gitalk_config.repo && theme.gitalk_config.owner && theme.gitalk_config.admin){ %>
-  <%- partial('post/gitment', {
+  <%- partial('post/gitalk', {
       key: post.slug,
       title: post.title,
       url: config.url+url_for(post.path)
