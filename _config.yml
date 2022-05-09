@@ -101,11 +101,11 @@ gitment_oauth:
 
 gitalk: true
 gitalk_config:
-  owner: tiger787
-  admin: tiger787
-  repo: tiger787.github.io
-  ClientID: 9c735609fa2af7647ff8
-  ClientSecret: 7c08af7a6ec7a8ab8f2a48ae847234e8243ee6ce
+  owner: 'tiger787'
+  admin: 'tiger787'
+  repo: 'tiger787.github.io'
+  clientID: '9c735609fa2af7647ff8'
+  clientSecret: '7c08af7a6ec7a8ab8f2a48ae847234e8243ee6ce'
   labels: 'gitalk'
   distractionFreeMode: true
 
